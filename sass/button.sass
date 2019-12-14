@@ -1,0 +1,26 @@
+@import "css/style.css"
+
+$dark: #000000
+$black: #000000
+$gray: #444444
+
+
+=box-shadow($shadow)
+  -webkit-box-shadow: $shadow
+  -ms-box-shadow: $shadow
+  box-shadow: $shadow
+
+.border-radius
+  border-radius: 0px
+
+/* Button */
+.btn, .btn-success
+  @extend .border-radius
+  background-color: $dark
+  border-color: $gray
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary
+	@extend .btn
+	@extend .border-radius
+	+box-shadow(0px 0px 12px -1px $dark)
+	
