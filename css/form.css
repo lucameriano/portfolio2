@@ -1,0 +1,29 @@
+@import url(css/style.css);
+@forward "button" {}form {
+  width: 80%;
+  margin: 25px 0 0 0; }
+
+.form-check {
+  margin: -5px 0 25px 15px; }
+
+.form-control {
+  border-width: 2px;
+  border-color: #000000;
+  background-color: transparent; }
+
+input[type=text]:focus, .form-control:focus {
+  background-color: #000000;
+  color: white;
+  border-width: 2px;
+  border-color: #000000; }
+
+input[type=text], .form-control {
+  color: black;
+  border-width: 2px;
+  border-color: #000000; }
+
+.controls {
+  width: 79%;
+  margin: -20px 0 0 90px;
+  padding: 0 0 10px 0;
+  border-radius: 0; }
